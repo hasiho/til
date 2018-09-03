@@ -1,10 +1,10 @@
 ## TNC 
-providing orchestration of network and security system and interoperatibility
-providing End point visibility helping network managers(knowing who and what is on their network)
-providing network-based access control enforcement(access based on authentication granting or blocking)
-providing security automation(NAC and interoperabililty in multi-vendor environments)
-TNC mechanisms enable expression of that trust to a third party or back-end verifier, increasing confidence both in
-endpoint evaluation and in resulting actions such as access control decisions
+ - providing orchestration of network and security system and interoperatibility
+ - providing End point visibility helping network managers(knowing who and what is on their network)
+ - providing network-based access control enforcement(access based on authentication granting or blocking)
+ - providing security automation(NAC and interoperabililty in multi-vendor environments)
+ - TNC mechanisms enable expression of that trust to a third party or back-end verifier, increasing confidence both in
+   endpoint evaluation and in resulting actions such as access control decisions
 
 ## International standardization efforts
  - GlobalPlatform : general scheme of root of trust, TEE(Trusted Execution Environment) and collaboration with TCG
@@ -12,15 +12,15 @@ endpoint evaluation and in resulting actions such as access control decisions
  - OneM2M and GSMA for remote management of secure module by applying GlobalPlatfrom scheme etc
 
 ## TCG TNC and TCG TPM
-The Trusted Computing Gruop(TCG), an international not-for-profit organization that develops, defines, and promotes
-open, vendor-neutral specifications for interoperable trusted computing platform 
+ - The Trusted Computing Gruop(TCG), an international not-for-profit organization that develops, defines, and promotes
+   open, vendor-neutral specifications for interoperable trusted computing platform 
 
 
 ## TNC and IETF
-IETF NEA working gruop published several RFCs based on TNC client-server protocols
- - https://datatracker.ietf.org/doc/rfc5792/
- - https://datatracker.ietf.org/doc/rfc5793/
- - https://datatracker.ietf.org/doc/rfc5209/
+ - IETF NEA working gruop published several RFCs based on TNC client-server protocols
+   * https://datatracker.ietf.org/doc/rfc5792/
+   * https://datatracker.ietf.org/doc/rfc5793/
+   * https://datatracker.ietf.org/doc/rfc5209/
 
 ## Four important concepts for securing mobile devices
  - Mobile Root of Trust(RoT)
@@ -55,7 +55,7 @@ IETF NEA working gruop published several RFCs based on TNC client-server protoco
    unhealthy mobile device
 
 ## IF-MAP
-providing open spec including the Interface to a Metadata Access Point(IF-MAP) for enterprise security
- - IF-MAP provides a standard way for information security products to share and respond to information about a
- security-realated topics and events
+ - providing open spec including the Interface to a Metadata Access Point(IF-MAP) for enterprise security
+   * IF-MAP provides a standard way for information security products to share and respond to information about a
+     security-realated topics and events
 
