@@ -82,6 +82,31 @@
   - MAP Functions
      * MAPS(Metadata Access Point Server) : allows elements which do not have a direct relationship to endpoints, users,
        capabilities, roles, device activities, and postures as well as other run time data
+       Examples of Administrative Clients include data visualizers, configuration management databases(CMDB), Policy
+       Information Points(PIPs), and provisioning servers
+  - MAPC Function
+     * Administrative Client : enables administrative operations such as monitoring, investigation, and provisioning by
+       utilizing information from the MAP and publishing information to the MAP via IF-MAP
+     * ACE(Access Control Enforcer) : makes and enforces decisions about network access utilizing information from
+       the MAP
+       Examples of ACEs include VPN gateways, internal firewall, inline intrusion prevention system(IPSs),
+       rate limiter, and proies
+     * BHI(Back-Haul Interface) : implements necessary authentication, encryption, translation, and authorization policy
+       enforcement capabilities to create the overlay network using IF-MAP
+     * Sensor : monitors the environment; gathers information such as network activities, location and other
+       observations about Endpoints and publishes information to the MAP via IF-MAP
+       Examples of Sensors include intrusion detection device, network virus detection devices, layer 3 traffic monitors
+       application traffic scanners, location awareness systems, vulnerability assessment
+
+## TNC Interfaces
+  - IF-IMC(Integrity Measurement Collector Interface)
+  - IF-IMV(Integrity Measurement Verifier Interface)
+  - IF-M(IMC-IMV Messaging Interface)
+  - IF-TNCCS(TNC Client-Server Interface)
+  - IF-T(TNC Network Transport Interface)
+  - IF-PTS(Platform Trust Services Interface)
+  - IF-PEP(Policy Enforcement Point Interface)
+  - IF-MAP(Metadata Access Point Interface)
 
 ## See also
   - https://trustedcomputinggroup.org/wp-content/uploads/TCG-TNC-Architecture-for-Interoperability-Version-2.0-Revision-13-.pdf
